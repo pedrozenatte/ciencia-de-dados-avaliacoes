@@ -9,7 +9,7 @@ Repositório de notebooks usados em atividades semanais, prova e trabalho final 
 
 ## Dependências
 - Python 3 com `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `imbalanced-learn` e `xgboost` (apenas no trabalho Olist).
-- Dados ficam referenciados via Google Drive (`drive.mount(...)` nos notebooks). Coloque os CSVs/arquivos nos caminhos esperados antes de rodar.
+- Dados ficam referenciados via Google Drive (`drive.mount(...)` nos notebooks). Coloque os CSVs/arquivos nos caminhos esperados ou altere-os antes de rodar.
 
 ## Como executar
 1) Abra o notebook no Colab ou Jupyter.  
@@ -19,4 +19,4 @@ Repositório de notebooks usados em atividades semanais, prova e trabalho final 
 
 ## Notas
 - Os notebooks usam importação padrão para exploração (estatísticas, histogramas, correlação), pré-processamento (limpeza, imputação, escala) e classificação (Logistic Regression, Random Forest, PCA, SMOTE/undersampling quando necessário).
-- Não há dados versionados aqui; é preciso fornecer os arquivos indicados nos próprios notebooks.
+- Não há dados versionados aqui, portanto é preciso fornecer os arquivos indicados nos próprios notebooks.
